@@ -1,16 +1,38 @@
-.container {
-    text-align: justify;
-    padding: 15px;
-}
-
-.centralizar {
-    text-align: center;
-    width: auto;
-    justify-content: center;
-    align-items: center;
-}
-
-.container-fluid {
-    font-size: 15px;
-    text-align: left;
-}
+        .container {
+            text-align: justify;
+            padding: 15px;
+        }
+        
+        .centralizar {
+            text-align: center;
+            width: auto;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container-fluid {
+            font-size: 15px;
+            text-align: left;
+            margin-bottom: 30px;
+            padding: 50px;
+        }
+        
+        .card {
+            height: 425px;
+            margin-bottom: 10px;
+        }
+        
+        .card-body {
+            flex: 1 1 auto;
+            padding: 5px;
+            margin: 5px;
+        }
+        
+        .card-title {
+            padding: 10px;
+            padding-bottom: 0px;
+        }
+        
+        p {
+            text-align: justify;
+        }
